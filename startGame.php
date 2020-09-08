@@ -22,11 +22,11 @@ if (isset($_POST)) {
     var sesion = <?php echo json_encode($json); ?>;
     var quantity = <?php echo json_encode($amount); ?>;
     var data = [];
-    
+
     localStorage.setItem("preguntas", JSON.stringify(sesion['results']));
     localStorage.setItem("quantity", quantity);
     localStorage.setItem("numero", 1);
     localStorage.setItem("user", JSON.stringify(data));
-    
+
     window.open("/gaming.php", "_self");
 </script>

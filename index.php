@@ -1,5 +1,5 @@
 <?php
-include_once 'Helpers/modelo.php';
+require_once 'helpers/modelo.php';
 ?>
 
 <!DOCTYPE html>

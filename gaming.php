@@ -36,10 +36,6 @@
             </div>
 
             <div id="respuestas">
-                <div class="cuadro hover"></div>
-                <div class="cuadro hover"></div>
-                <div class="cuadro hover"></div>
-                <div class="cuadro hover"></div>
             </div>
         </div>
     </main>

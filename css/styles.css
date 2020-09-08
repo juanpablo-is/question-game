@@ -202,7 +202,7 @@ input[type="submit"] {
 }
 
 .cuadro {
-    visibility: hidden;
+    /* visibility: hidden; */
     display: flex;
     justify-content: center;
     border-radius: 10px;
